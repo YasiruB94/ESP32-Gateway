@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/MCP4551/libMCP4551.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/MCP4551/libMCP4551.a:
 
 MCP4551.c.obj:     file format elf32-xtensa-le
 
@@ -60,13 +60,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  27 .debug_line   00000434  00000000  00000000  00000f80  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 28 .debug_str    00000674  00000000  00000000  000013b4  2**0
+ 28 .debug_str    00000685  00000000  00000000  000013b4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 29 .comment      0000003c  00000000  00000000  00001a28  2**0
+ 29 .comment      0000003c  00000000  00000000  00001a39  2**0
                   CONTENTS, READONLY
- 30 .xtensa.info  00000038  00000000  00000000  00001a64  2**0
+ 30 .xtensa.info  00000038  00000000  00000000  00001a75  2**0
                   CONTENTS, READONLY
- 31 .xt.lit       00000040  00000000  00000000  00001a9c  2**0
+ 31 .xt.lit       00000040  00000000  00000000  00001aad  2**0
                   CONTENTS, RELOC, READONLY
- 32 .xt.prop      000001d4  00000000  00000000  00001adc  2**0
+ 32 .xt.prop      000001d4  00000000  00000000  00001aed  2**0
                   CONTENTS, RELOC, READONLY

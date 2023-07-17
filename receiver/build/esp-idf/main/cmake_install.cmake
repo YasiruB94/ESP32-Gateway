@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/main
+# Install script for directory: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

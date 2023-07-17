@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/efuse/libefuse.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/efuse/libefuse.a:
 
 esp_efuse_table.c.obj:     file format elf32-xtensa-le
 
@@ -174,13 +174,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  84 .debug_line   000001ad  00000000  00000000  00000a79  2**0
                   CONTENTS, READONLY, DEBUGGING
- 85 .debug_str    00000854  00000000  00000000  00000c26  2**0
+ 85 .debug_str    00000865  00000000  00000000  00000c26  2**0
                   CONTENTS, READONLY, DEBUGGING
- 86 .comment      0000003c  00000000  00000000  0000147a  2**0
+ 86 .comment      0000003c  00000000  00000000  0000148b  2**0
                   CONTENTS, READONLY
- 87 .xtensa.info  00000038  00000000  00000000  000014b6  2**0
+ 87 .xtensa.info  00000038  00000000  00000000  000014c7  2**0
                   CONTENTS, READONLY
- 88 .xt.prop      000003a8  00000000  00000000  000014ee  2**0
+ 88 .xt.prop      000003a8  00000000  00000000  000014ff  2**0
                   CONTENTS, RELOC, READONLY
 
 esp_efuse_api.c.obj:     file format elf32-xtensa-le
@@ -257,15 +257,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  34 .debug_line   00000738  00000000  00000000  00001842  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 35 .debug_str    00000698  00000000  00000000  00001f7a  2**0
+ 35 .debug_str    000006a9  00000000  00000000  00001f7a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 36 .comment      0000003c  00000000  00000000  00002612  2**0
+ 36 .comment      0000003c  00000000  00000000  00002623  2**0
                   CONTENTS, READONLY
- 37 .xtensa.info  00000038  00000000  00000000  0000264e  2**0
+ 37 .xtensa.info  00000038  00000000  00000000  0000265f  2**0
                   CONTENTS, READONLY
- 38 .xt.lit       00000058  00000000  00000000  00002686  2**0
+ 38 .xt.lit       00000058  00000000  00000000  00002697  2**0
                   CONTENTS, RELOC, READONLY
- 39 .xt.prop      00000468  00000000  00000000  000026de  2**0
+ 39 .xt.prop      00000468  00000000  00000000  000026ef  2**0
                   CONTENTS, RELOC, READONLY
 
 esp_efuse_fields.c.obj:     file format elf32-xtensa-le
@@ -336,15 +336,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  31 .debug_line   000006d7  00000000  00000000  000011f9  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 32 .debug_str    00000626  00000000  00000000  000018d0  2**0
+ 32 .debug_str    00000637  00000000  00000000  000018d0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 33 .comment      0000003c  00000000  00000000  00001ef6  2**0
+ 33 .comment      0000003c  00000000  00000000  00001f07  2**0
                   CONTENTS, READONLY
- 34 .xtensa.info  00000038  00000000  00000000  00001f32  2**0
+ 34 .xtensa.info  00000038  00000000  00000000  00001f43  2**0
                   CONTENTS, READONLY
- 35 .xt.lit       00000048  00000000  00000000  00001f6a  2**0
+ 35 .xt.lit       00000048  00000000  00000000  00001f7b  2**0
                   CONTENTS, RELOC, READONLY
- 36 .xt.prop      00000348  00000000  00000000  00001fb2  2**0
+ 36 .xt.prop      00000348  00000000  00000000  00001fc3  2**0
                   CONTENTS, RELOC, READONLY
 
 esp_efuse_utility.c.obj:     file format elf32-xtensa-le
@@ -479,13 +479,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  63 .debug_line   00000ccb  00000000  00000000  000041c2  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 64 .debug_str    00000903  00000000  00000000  00004e8d  2**0
+ 64 .debug_str    00000914  00000000  00000000  00004e8d  2**0
                   CONTENTS, READONLY, DEBUGGING
- 65 .comment      0000003c  00000000  00000000  00005790  2**0
+ 65 .comment      0000003c  00000000  00000000  000057a1  2**0
                   CONTENTS, READONLY
- 66 .xtensa.info  00000038  00000000  00000000  000057cc  2**0
+ 66 .xtensa.info  00000038  00000000  00000000  000057dd  2**0
                   CONTENTS, READONLY
- 67 .xt.lit       00000090  00000000  00000000  00005804  2**0
+ 67 .xt.lit       00000090  00000000  00000000  00005815  2**0
                   CONTENTS, RELOC, READONLY
- 68 .xt.prop      000009c0  00000000  00000000  00005894  2**0
+ 68 .xt.prop      000009c0  00000000  00000000  000058a5  2**0
                   CONTENTS, RELOC, READONLY

@@ -1,7 +1,16 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
   "files.associations": {
-    "esp_heap_caps.h": "c"
+    "esp_heap_caps.h": "c",
+    "codecvt": "cpp",
+    "condition_variable": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "functional": "cpp",
+    "future": "cpp",
+    "limits": "cpp",
+    "*.ipp": "cpp"
   },
-  "idf.adapterTargetName": "esp32"
+  "idf.adapterTargetName": "esp32",
+  "C_Cpp.errorSquiggles": "disabled"
 }

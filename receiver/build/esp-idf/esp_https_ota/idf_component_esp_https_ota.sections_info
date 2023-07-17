@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/esp_https_ota/libesp_https_ota.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/esp_https_ota/libesp_https_ota.a:
 
 esp_https_ota.c.obj:     file format elf32-xtensa-le
 
@@ -70,13 +70,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  32 .debug_line   00000b90  00000000  00000000  0000316c  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 33 .debug_str    00001086  00000000  00000000  00003cfc  2**0
+ 33 .debug_str    00001097  00000000  00000000  00003cfc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 34 .comment      0000003c  00000000  00000000  00004d82  2**0
+ 34 .comment      0000003c  00000000  00000000  00004d93  2**0
                   CONTENTS, READONLY
- 35 .xtensa.info  00000038  00000000  00000000  00004dbe  2**0
+ 35 .xtensa.info  00000038  00000000  00000000  00004dcf  2**0
                   CONTENTS, READONLY
- 36 .xt.lit       00000050  00000000  00000000  00004df6  2**0
+ 36 .xt.lit       00000050  00000000  00000000  00004e07  2**0
                   CONTENTS, RELOC, READONLY
- 37 .xt.prop      00000690  00000000  00000000  00004e46  2**0
+ 37 .xt.prop      00000690  00000000  00000000  00004e57  2**0
                   CONTENTS, RELOC, READONLY

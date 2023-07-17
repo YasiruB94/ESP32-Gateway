@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/espcoredump/libespcoredump.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/espcoredump/libespcoredump.a:
 
 core_dump_common.c.obj:     file format elf32-xtensa-le
 
@@ -34,15 +34,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  14 .debug_line   00000530  00000000  00000000  00000cd2  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 15 .debug_str    000007d5  00000000  00000000  00001202  2**0
+ 15 .debug_str    000007e6  00000000  00000000  00001202  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .comment      0000003c  00000000  00000000  000019d7  2**0
+ 16 .comment      0000003c  00000000  00000000  000019e8  2**0
                   CONTENTS, READONLY
- 17 .xtensa.info  00000038  00000000  00000000  00001a13  2**0
+ 17 .xtensa.info  00000038  00000000  00000000  00001a24  2**0
                   CONTENTS, READONLY
- 18 .xt.lit       00000008  00000000  00000000  00001a4b  2**0
+ 18 .xt.lit       00000008  00000000  00000000  00001a5c  2**0
                   CONTENTS, RELOC, READONLY
- 19 .xt.prop      0000012c  00000000  00000000  00001a53  2**0
+ 19 .xt.prop      0000012c  00000000  00000000  00001a64  2**0
                   CONTENTS, RELOC, READONLY
 
 core_dump_flash.c.obj:     file format elf32-xtensa-le
@@ -63,11 +63,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
   6 .debug_line   00000085  00000000  00000000  00000131  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_str    000001af  00000000  00000000  000001b6  2**0
+  7 .debug_str    000001c0  00000000  00000000  000001b6  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .comment      0000003c  00000000  00000000  00000365  2**0
+  8 .comment      0000003c  00000000  00000000  00000376  2**0
                   CONTENTS, READONLY
-  9 .xtensa.info  00000038  00000000  00000000  000003a1  2**0
+  9 .xtensa.info  00000038  00000000  00000000  000003b2  2**0
                   CONTENTS, READONLY
 
 core_dump_port.c.obj:     file format elf32-xtensa-le
@@ -88,11 +88,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
   6 .debug_line   00000084  00000000  00000000  00000131  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_str    000001ae  00000000  00000000  000001b5  2**0
+  7 .debug_str    000001bf  00000000  00000000  000001b5  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .comment      0000003c  00000000  00000000  00000363  2**0
+  8 .comment      0000003c  00000000  00000000  00000374  2**0
                   CONTENTS, READONLY
-  9 .xtensa.info  00000038  00000000  00000000  0000039f  2**0
+  9 .xtensa.info  00000038  00000000  00000000  000003b0  2**0
                   CONTENTS, READONLY
 
 core_dump_uart.c.obj:     file format elf32-xtensa-le
@@ -113,9 +113,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
   6 .debug_line   00000084  00000000  00000000  00000131  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_str    000001ae  00000000  00000000  000001b5  2**0
+  7 .debug_str    000001bf  00000000  00000000  000001b5  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .comment      0000003c  00000000  00000000  00000363  2**0
+  8 .comment      0000003c  00000000  00000000  00000374  2**0
                   CONTENTS, READONLY
-  9 .xtensa.info  00000038  00000000  00000000  0000039f  2**0
+  9 .xtensa.info  00000038  00000000  00000000  000003b0  2**0
                   CONTENTS, READONLY

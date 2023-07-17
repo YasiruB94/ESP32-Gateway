@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/smartconfig_ack/libsmartconfig_ack.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/smartconfig_ack/libsmartconfig_ack.a:
 
 smartconfig_ack.c.obj:     file format elf32-xtensa-le
 
@@ -46,13 +46,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  20 .debug_line   000007c7  00000000  00000000  00001bb2  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 21 .debug_str    000007ac  00000000  00000000  00002379  2**0
+ 21 .debug_str    000007bd  00000000  00000000  00002379  2**0
                   CONTENTS, READONLY, DEBUGGING
- 22 .comment      0000003c  00000000  00000000  00002b25  2**0
+ 22 .comment      0000003c  00000000  00000000  00002b36  2**0
                   CONTENTS, READONLY
- 23 .xtensa.info  00000038  00000000  00000000  00002b61  2**0
+ 23 .xtensa.info  00000038  00000000  00000000  00002b72  2**0
                   CONTENTS, READONLY
- 24 .xt.lit       00000020  00000000  00000000  00002b99  2**0
+ 24 .xt.lit       00000020  00000000  00000000  00002baa  2**0
                   CONTENTS, RELOC, READONLY
- 25 .xt.prop      00000204  00000000  00000000  00002bb9  2**0
+ 25 .xt.prop      00000204  00000000  00000000  00002bca  2**0
                   CONTENTS, RELOC, READONLY

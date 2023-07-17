@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/nghttp/libnghttp.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/nghttp/libnghttp.a:
 
 nghttp2_buf.c.obj:     file format elf32-xtensa-le
 
@@ -132,15 +132,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  63 .debug_line   00000b20  00000000  00000000  0000299e  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 64 .debug_str    000009d3  00000000  00000000  000034be  2**0
+ 64 .debug_str    000009e4  00000000  00000000  000034be  2**0
                   CONTENTS, READONLY, DEBUGGING
- 65 .comment      0000003c  00000000  00000000  00003e91  2**0
+ 65 .comment      0000003c  00000000  00000000  00003ea2  2**0
                   CONTENTS, READONLY
- 66 .xtensa.info  00000038  00000000  00000000  00003ecd  2**0
+ 66 .xtensa.info  00000038  00000000  00000000  00003ede  2**0
                   CONTENTS, READONLY
- 67 .xt.lit       000000c0  00000000  00000000  00003f05  2**0
+ 67 .xt.lit       000000c0  00000000  00000000  00003f16  2**0
                   CONTENTS, RELOC, READONLY
- 68 .xt.prop      00000930  00000000  00000000  00003fc5  2**0
+ 68 .xt.prop      00000930  00000000  00000000  00003fd6  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_callbacks.c.obj:     file format elf32-xtensa-le
@@ -219,15 +219,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  35 .debug_line   0000052c  00000000  00000000  00001784  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 36 .debug_str    000012e9  00000000  00000000  00001cb0  2**0
+ 36 .debug_str    000012fa  00000000  00000000  00001cb0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 37 .comment      0000003c  00000000  00000000  00002f99  2**0
+ 37 .comment      0000003c  00000000  00000000  00002faa  2**0
                   CONTENTS, READONLY
- 38 .xtensa.info  00000038  00000000  00000000  00002fd5  2**0
+ 38 .xtensa.info  00000038  00000000  00000000  00002fe6  2**0
                   CONTENTS, READONLY
- 39 .xt.lit       00000010  00000000  00000000  0000300d  2**0
+ 39 .xt.lit       00000010  00000000  00000000  0000301e  2**0
                   CONTENTS, RELOC, READONLY
- 40 .xt.prop      00000390  00000000  00000000  0000301d  2**0
+ 40 .xt.prop      00000390  00000000  00000000  0000302e  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_debug.c.obj:     file format elf32-xtensa-le
@@ -254,13 +254,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
   9 .debug_line   000001b0  00000000  00000000  00000253  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 10 .debug_str    00000243  00000000  00000000  00000403  2**0
+ 10 .debug_str    00000254  00000000  00000000  00000403  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .comment      0000003c  00000000  00000000  00000646  2**0
+ 11 .comment      0000003c  00000000  00000000  00000657  2**0
                   CONTENTS, READONLY
- 12 .xtensa.info  00000038  00000000  00000000  00000682  2**0
+ 12 .xtensa.info  00000038  00000000  00000000  00000693  2**0
                   CONTENTS, READONLY
- 13 .xt.prop      00000024  00000000  00000000  000006ba  2**0
+ 13 .xt.prop      00000024  00000000  00000000  000006cb  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_frame.c.obj:     file format elf32-xtensa-le
@@ -547,15 +547,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
 139 .debug_line   00001157  00000000  00000000  00005bac  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-140 .debug_str    0000180e  00000000  00000000  00006d03  2**0
+140 .debug_str    0000181f  00000000  00000000  00006d03  2**0
                   CONTENTS, READONLY, DEBUGGING
-141 .comment      0000003c  00000000  00000000  00008511  2**0
+141 .comment      0000003c  00000000  00000000  00008522  2**0
                   CONTENTS, READONLY
-142 .xtensa.info  00000038  00000000  00000000  0000854d  2**0
+142 .xtensa.info  00000038  00000000  00000000  0000855e  2**0
                   CONTENTS, READONLY
-143 .xt.lit       000001b0  00000000  00000000  00008585  2**0
+143 .xt.lit       000001b0  00000000  00000000  00008596  2**0
                   CONTENTS, RELOC, READONLY
-144 .xt.prop      00001188  00000000  00000000  00008735  2**0
+144 .xt.prop      00001188  00000000  00000000  00008746  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_hd.c.obj:     file format elf32-xtensa-le
@@ -900,15 +900,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
 168 .debug_line   00002039  00000000  00000000  0000be55  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-169 .debug_str    00001ce0  00000000  00000000  0000de8e  2**0
+169 .debug_str    00001cf1  00000000  00000000  0000de8e  2**0
                   CONTENTS, READONLY, DEBUGGING
-170 .comment      0000003c  00000000  00000000  0000fb6e  2**0
+170 .comment      0000003c  00000000  00000000  0000fb7f  2**0
                   CONTENTS, READONLY
-171 .xtensa.info  00000038  00000000  00000000  0000fbaa  2**0
+171 .xtensa.info  00000038  00000000  00000000  0000fbbb  2**0
                   CONTENTS, READONLY
-172 .xt.lit       00000218  00000000  00000000  0000fbe2  2**0
+172 .xt.lit       00000218  00000000  00000000  0000fbf3  2**0
                   CONTENTS, RELOC, READONLY
-173 .xt.prop      00002a48  00000000  00000000  0000fdfa  2**0
+173 .xt.prop      00002a48  00000000  00000000  0000fe0b  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_hd_huffman.c.obj:     file format elf32-xtensa-le
@@ -957,15 +957,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  20 .debug_line   0000063c  00000000  00000000  000015f6  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 21 .debug_str    00000889  00000000  00000000  00001c32  2**0
+ 21 .debug_str    0000089a  00000000  00000000  00001c32  2**0
                   CONTENTS, READONLY, DEBUGGING
- 22 .comment      0000003c  00000000  00000000  000024bb  2**0
+ 22 .comment      0000003c  00000000  00000000  000024cc  2**0
                   CONTENTS, READONLY
- 23 .xtensa.info  00000038  00000000  00000000  000024f7  2**0
+ 23 .xtensa.info  00000038  00000000  00000000  00002508  2**0
                   CONTENTS, READONLY
- 24 .xt.lit       00000020  00000000  00000000  0000252f  2**0
+ 24 .xt.lit       00000020  00000000  00000000  00002540  2**0
                   CONTENTS, RELOC, READONLY
- 25 .xt.prop      0000036c  00000000  00000000  0000254f  2**0
+ 25 .xt.prop      0000036c  00000000  00000000  00002560  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_hd_huffman_data.c.obj:     file format elf32-xtensa-le
@@ -990,13 +990,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
   8 .debug_line   00000174  00000000  00000000  00003a3a  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    00000237  00000000  00000000  00003bae  2**0
+  9 .debug_str    00000248  00000000  00000000  00003bae  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .comment      0000003c  00000000  00000000  00003de5  2**0
+ 10 .comment      0000003c  00000000  00000000  00003df6  2**0
                   CONTENTS, READONLY
- 11 .xtensa.info  00000038  00000000  00000000  00003e21  2**0
+ 11 .xtensa.info  00000038  00000000  00000000  00003e32  2**0
                   CONTENTS, READONLY
- 12 .xt.prop      00000018  00000000  00000000  00003e59  2**0
+ 12 .xt.prop      00000018  00000000  00000000  00003e6a  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_helper.c.obj:     file format elf32-xtensa-le
@@ -1081,15 +1081,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  38 .debug_line   000006d0  00000000  00000000  000028b9  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 39 .debug_str    0000099b  00000000  00000000  00002f89  2**0
+ 39 .debug_str    000009ac  00000000  00000000  00002f89  2**0
                   CONTENTS, READONLY, DEBUGGING
- 40 .comment      0000003c  00000000  00000000  00003924  2**0
+ 40 .comment      0000003c  00000000  00000000  00003935  2**0
                   CONTENTS, READONLY
- 41 .xtensa.info  00000038  00000000  00000000  00003960  2**0
+ 41 .xtensa.info  00000038  00000000  00000000  00003971  2**0
                   CONTENTS, READONLY
- 42 .xt.lit       00000050  00000000  00000000  00003998  2**0
+ 42 .xt.lit       00000050  00000000  00000000  000039a9  2**0
                   CONTENTS, RELOC, READONLY
- 43 .xt.prop      000009fc  00000000  00000000  000039e8  2**0
+ 43 .xt.prop      000009fc  00000000  00000000  000039f9  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_http.c.obj:     file format elf32-xtensa-le
@@ -1184,15 +1184,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  43 .debug_line   00000c8b  00000000  00000000  000049a7  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 44 .debug_str    00002906  00000000  00000000  00005632  2**0
+ 44 .debug_str    00002917  00000000  00000000  00005632  2**0
                   CONTENTS, READONLY, DEBUGGING
- 45 .comment      0000003c  00000000  00000000  00007f38  2**0
+ 45 .comment      0000003c  00000000  00000000  00007f49  2**0
                   CONTENTS, READONLY
- 46 .xtensa.info  00000038  00000000  00000000  00007f74  2**0
+ 46 .xtensa.info  00000038  00000000  00000000  00007f85  2**0
                   CONTENTS, READONLY
- 47 .xt.lit       00000058  00000000  00000000  00007fac  2**0
+ 47 .xt.lit       00000058  00000000  00000000  00007fbd  2**0
                   CONTENTS, RELOC, READONLY
- 48 .xt.prop      00000e7c  00000000  00000000  00008004  2**0
+ 48 .xt.prop      00000e7c  00000000  00000000  00008015  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_map.c.obj:     file format elf32-xtensa-le
@@ -1257,15 +1257,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  28 .debug_line   000005b5  00000000  00000000  000012de  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 29 .debug_str    0000079e  00000000  00000000  00001893  2**0
+ 29 .debug_str    000007af  00000000  00000000  00001893  2**0
                   CONTENTS, READONLY, DEBUGGING
- 30 .comment      0000003c  00000000  00000000  00002031  2**0
+ 30 .comment      0000003c  00000000  00000000  00002042  2**0
                   CONTENTS, READONLY
- 31 .xtensa.info  00000038  00000000  00000000  0000206d  2**0
+ 31 .xtensa.info  00000038  00000000  00000000  0000207e  2**0
                   CONTENTS, READONLY
- 32 .xt.lit       00000038  00000000  00000000  000020a5  2**0
+ 32 .xt.lit       00000038  00000000  00000000  000020b6  2**0
                   CONTENTS, RELOC, READONLY
- 33 .xt.prop      000003cc  00000000  00000000  000020dd  2**0
+ 33 .xt.prop      000003cc  00000000  00000000  000020ee  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_mem.c.obj:     file format elf32-xtensa-le
@@ -1324,15 +1324,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  25 .debug_line   000002f0  00000000  00000000  000009a1  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 26 .debug_str    000002ec  00000000  00000000  00000c91  2**0
+ 26 .debug_str    000002fd  00000000  00000000  00000c91  2**0
                   CONTENTS, READONLY, DEBUGGING
- 27 .comment      0000003c  00000000  00000000  00000f7d  2**0
+ 27 .comment      0000003c  00000000  00000000  00000f8e  2**0
                   CONTENTS, READONLY
- 28 .xtensa.info  00000038  00000000  00000000  00000fb9  2**0
+ 28 .xtensa.info  00000038  00000000  00000000  00000fca  2**0
                   CONTENTS, READONLY
- 29 .xt.lit       00000028  00000000  00000000  00000ff1  2**0
+ 29 .xt.lit       00000028  00000000  00000000  00001002  2**0
                   CONTENTS, RELOC, READONLY
- 30 .xt.prop      000001b0  00000000  00000000  00001019  2**0
+ 30 .xt.prop      000001b0  00000000  00000000  0000102a  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_npn.c.obj:     file format elf32-xtensa-le
@@ -1369,15 +1369,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  14 .debug_line   00000160  00000000  00000000  00000573  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 15 .debug_str    000001f5  00000000  00000000  000006d3  2**0
+ 15 .debug_str    00000206  00000000  00000000  000006d3  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .comment      0000003c  00000000  00000000  000008c8  2**0
+ 16 .comment      0000003c  00000000  00000000  000008d9  2**0
                   CONTENTS, READONLY
- 17 .xtensa.info  00000038  00000000  00000000  00000904  2**0
+ 17 .xtensa.info  00000038  00000000  00000000  00000915  2**0
                   CONTENTS, READONLY
- 18 .xt.lit       00000010  00000000  00000000  0000093c  2**0
+ 18 .xt.lit       00000010  00000000  00000000  0000094d  2**0
                   CONTENTS, RELOC, READONLY
- 19 .xt.prop      000000cc  00000000  00000000  0000094c  2**0
+ 19 .xt.prop      000000cc  00000000  00000000  0000095d  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_option.c.obj:     file format elf32-xtensa-le
@@ -1438,15 +1438,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  26 .debug_line   00000435  00000000  00000000  00000bf9  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 27 .debug_str    00000ba9  00000000  00000000  0000102e  2**0
+ 27 .debug_str    00000bba  00000000  00000000  0000102e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 28 .comment      0000003c  00000000  00000000  00001bd7  2**0
+ 28 .comment      0000003c  00000000  00000000  00001be8  2**0
                   CONTENTS, READONLY
- 29 .xtensa.info  00000038  00000000  00000000  00001c13  2**0
+ 29 .xtensa.info  00000038  00000000  00000000  00001c24  2**0
                   CONTENTS, READONLY
- 30 .xt.lit       00000018  00000000  00000000  00001c4b  2**0
+ 30 .xt.lit       00000018  00000000  00000000  00001c5c  2**0
                   CONTENTS, RELOC, READONLY
- 31 .xt.prop      0000024c  00000000  00000000  00001c63  2**0
+ 31 .xt.prop      0000024c  00000000  00000000  00001c74  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_outbound_item.c.obj:     file format elf32-xtensa-le
@@ -1493,15 +1493,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  19 .debug_line   00000462  00000000  00000000  0000123a  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 20 .debug_str    000009a2  00000000  00000000  0000169c  2**0
+ 20 .debug_str    000009b3  00000000  00000000  0000169c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 21 .comment      0000003c  00000000  00000000  0000203e  2**0
+ 21 .comment      0000003c  00000000  00000000  0000204f  2**0
                   CONTENTS, READONLY
- 22 .xtensa.info  00000038  00000000  00000000  0000207a  2**0
+ 22 .xtensa.info  00000038  00000000  00000000  0000208b  2**0
                   CONTENTS, READONLY
- 23 .xt.lit       00000010  00000000  00000000  000020b2  2**0
+ 23 .xt.lit       00000010  00000000  00000000  000020c3  2**0
                   CONTENTS, RELOC, READONLY
- 24 .xt.prop      00000240  00000000  00000000  000020c2  2**0
+ 24 .xt.prop      00000240  00000000  00000000  000020d3  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_pq.c.obj:     file format elf32-xtensa-le
@@ -1572,15 +1572,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  31 .debug_line   00000526  00000000  00000000  00001298  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 32 .debug_str    0000079c  00000000  00000000  000017be  2**0
+ 32 .debug_str    000007ad  00000000  00000000  000017be  2**0
                   CONTENTS, READONLY, DEBUGGING
- 33 .comment      0000003c  00000000  00000000  00001f5a  2**0
+ 33 .comment      0000003c  00000000  00000000  00001f6b  2**0
                   CONTENTS, READONLY
- 34 .xtensa.info  00000038  00000000  00000000  00001f96  2**0
+ 34 .xtensa.info  00000038  00000000  00000000  00001fa7  2**0
                   CONTENTS, READONLY
- 35 .xt.lit       00000038  00000000  00000000  00001fce  2**0
+ 35 .xt.lit       00000038  00000000  00000000  00001fdf  2**0
                   CONTENTS, RELOC, READONLY
- 36 .xt.prop      000003c0  00000000  00000000  00002006  2**0
+ 36 .xt.prop      000003c0  00000000  00000000  00002017  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_priority_spec.c.obj:     file format elf32-xtensa-le
@@ -1615,13 +1615,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  13 .debug_line   00000284  00000000  00000000  00000467  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 14 .debug_str    00000299  00000000  00000000  000006eb  2**0
+ 14 .debug_str    000002aa  00000000  00000000  000006eb  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .comment      0000003c  00000000  00000000  00000984  2**0
+ 15 .comment      0000003c  00000000  00000000  00000995  2**0
                   CONTENTS, READONLY
- 16 .xtensa.info  00000038  00000000  00000000  000009c0  2**0
+ 16 .xtensa.info  00000038  00000000  00000000  000009d1  2**0
                   CONTENTS, READONLY
- 17 .xt.prop      000000fc  00000000  00000000  000009f8  2**0
+ 17 .xt.prop      000000fc  00000000  00000000  00000a09  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_queue.c.obj:     file format elf32-xtensa-le
@@ -1680,15 +1680,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  25 .debug_line   000002c9  00000000  00000000  00000afe  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 26 .debug_str    000006a6  00000000  00000000  00000dc7  2**0
+ 26 .debug_str    000006b7  00000000  00000000  00000dc7  2**0
                   CONTENTS, READONLY, DEBUGGING
- 27 .comment      0000003c  00000000  00000000  0000146d  2**0
+ 27 .comment      0000003c  00000000  00000000  0000147e  2**0
                   CONTENTS, READONLY
- 28 .xtensa.info  00000038  00000000  00000000  000014a9  2**0
+ 28 .xtensa.info  00000038  00000000  00000000  000014ba  2**0
                   CONTENTS, READONLY
- 29 .xt.lit       00000028  00000000  00000000  000014e1  2**0
+ 29 .xt.lit       00000028  00000000  00000000  000014f2  2**0
                   CONTENTS, RELOC, READONLY
- 30 .xt.prop      000001e0  00000000  00000000  00001509  2**0
+ 30 .xt.prop      000001e0  00000000  00000000  0000151a  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_rcbuf.c.obj:     file format elf32-xtensa-le
@@ -1739,15 +1739,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  21 .debug_line   000003ba  00000000  00000000  00000b88  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 22 .debug_str    00000750  00000000  00000000  00000f42  2**0
+ 22 .debug_str    00000761  00000000  00000000  00000f42  2**0
                   CONTENTS, READONLY, DEBUGGING
- 23 .comment      0000003c  00000000  00000000  00001692  2**0
+ 23 .comment      0000003c  00000000  00000000  000016a3  2**0
                   CONTENTS, READONLY
- 24 .xtensa.info  00000038  00000000  00000000  000016ce  2**0
+ 24 .xtensa.info  00000038  00000000  00000000  000016df  2**0
                   CONTENTS, READONLY
- 25 .xt.lit       00000020  00000000  00000000  00001706  2**0
+ 25 .xt.lit       00000020  00000000  00000000  00001717  2**0
                   CONTENTS, RELOC, READONLY
- 26 .xt.prop      00000168  00000000  00000000  00001726  2**0
+ 26 .xt.prop      00000168  00000000  00000000  00001737  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_session.c.obj:     file format elf32-xtensa-le
@@ -2522,15 +2522,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
 383 .debug_line   00006170  00000000  00000000  00020579  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-384 .debug_str    0000535b  00000000  00000000  000266e9  2**0
+384 .debug_str    0000536c  00000000  00000000  000266e9  2**0
                   CONTENTS, READONLY, DEBUGGING
-385 .comment      0000003c  00000000  00000000  0002ba44  2**0
+385 .comment      0000003c  00000000  00000000  0002ba55  2**0
                   CONTENTS, READONLY
-386 .xtensa.info  00000038  00000000  00000000  0002ba80  2**0
+386 .xtensa.info  00000038  00000000  00000000  0002ba91  2**0
                   CONTENTS, READONLY
-387 .xt.lit       00000490  00000000  00000000  0002bab8  2**0
+387 .xt.lit       00000490  00000000  00000000  0002bac9  2**0
                   CONTENTS, RELOC, READONLY
-388 .xt.prop      00007470  00000000  00000000  0002bf48  2**0
+388 .xt.prop      00007470  00000000  00000000  0002bf59  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_stream.c.obj:     file format elf32-xtensa-le
@@ -2733,15 +2733,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  97 .debug_line   00001079  00000000  00000000  000058c7  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 98 .debug_str    00002435  00000000  00000000  00006940  2**0
+ 98 .debug_str    00002446  00000000  00000000  00006940  2**0
                   CONTENTS, READONLY, DEBUGGING
- 99 .comment      0000003c  00000000  00000000  00008d75  2**0
+ 99 .comment      0000003c  00000000  00000000  00008d86  2**0
                   CONTENTS, READONLY
-100 .xtensa.info  00000038  00000000  00000000  00008db1  2**0
+100 .xtensa.info  00000038  00000000  00000000  00008dc2  2**0
                   CONTENTS, READONLY
-101 .xt.lit       000000e0  00000000  00000000  00008de9  2**0
+101 .xt.lit       000000e0  00000000  00000000  00008dfa  2**0
                   CONTENTS, RELOC, READONLY
-102 .xt.prop      00000fcc  00000000  00000000  00008ec9  2**0
+102 .xt.prop      00000fcc  00000000  00000000  00008eda  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_submit.c.obj:     file format elf32-xtensa-le
@@ -2856,15 +2856,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  53 .debug_line   00000c51  00000000  00000000  000056d2  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 54 .debug_str    0000272a  00000000  00000000  00006323  2**0
+ 54 .debug_str    0000273b  00000000  00000000  00006323  2**0
                   CONTENTS, READONLY, DEBUGGING
- 55 .comment      0000003c  00000000  00000000  00008a4d  2**0
+ 55 .comment      0000003c  00000000  00000000  00008a5e  2**0
                   CONTENTS, READONLY
- 56 .xtensa.info  00000038  00000000  00000000  00008a89  2**0
+ 56 .xtensa.info  00000038  00000000  00000000  00008a9a  2**0
                   CONTENTS, READONLY
- 57 .xt.lit       000000a0  00000000  00000000  00008ac1  2**0
+ 57 .xt.lit       000000a0  00000000  00000000  00008ad2  2**0
                   CONTENTS, RELOC, READONLY
- 58 .xt.prop      00000b34  00000000  00000000  00008b61  2**0
+ 58 .xt.prop      00000b34  00000000  00000000  00008b72  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_version.c.obj:     file format elf32-xtensa-le
@@ -2899,15 +2899,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  13 .debug_line   00000124  00000000  00000000  000002b3  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 14 .debug_str    00000201  00000000  00000000  000003d7  2**0
+ 14 .debug_str    00000212  00000000  00000000  000003d7  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .comment      0000003c  00000000  00000000  000005d8  2**0
+ 15 .comment      0000003c  00000000  00000000  000005e9  2**0
                   CONTENTS, READONLY
- 16 .xtensa.info  00000038  00000000  00000000  00000614  2**0
+ 16 .xtensa.info  00000038  00000000  00000000  00000625  2**0
                   CONTENTS, READONLY
- 17 .xt.lit       00000008  00000000  00000000  0000064c  2**0
+ 17 .xt.lit       00000008  00000000  00000000  0000065d  2**0
                   CONTENTS, RELOC, READONLY
- 18 .xt.prop      00000054  00000000  00000000  00000654  2**0
+ 18 .xt.prop      00000054  00000000  00000000  00000665  2**0
                   CONTENTS, RELOC, READONLY
 
 http_parser.c.obj:     file format elf32-xtensa-le

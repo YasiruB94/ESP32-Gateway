@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 
 endif()
 

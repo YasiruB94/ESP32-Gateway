@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/protocomm/libprotocomm.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/protocomm/libprotocomm.a:
 
 protocomm.c.obj:     file format elf32-xtensa-le
 
@@ -76,15 +76,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  35 .debug_line   00000a3b  00000000  00000000  00002a18  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 36 .debug_str    000005dc  00000000  00000000  00003453  2**0
+ 36 .debug_str    000005ed  00000000  00000000  00003453  2**0
                   CONTENTS, READONLY, DEBUGGING
- 37 .comment      0000003c  00000000  00000000  00003a2f  2**0
+ 37 .comment      0000003c  00000000  00000000  00003a40  2**0
                   CONTENTS, READONLY
- 38 .xtensa.info  00000038  00000000  00000000  00003a6b  2**0
+ 38 .xtensa.info  00000038  00000000  00000000  00003a7c  2**0
                   CONTENTS, READONLY
- 39 .xt.lit       00000060  00000000  00000000  00003aa3  2**0
+ 39 .xt.lit       00000060  00000000  00000000  00003ab4  2**0
                   CONTENTS, RELOC, READONLY
- 40 .xt.prop      000006e4  00000000  00000000  00003b03  2**0
+ 40 .xt.prop      000006e4  00000000  00000000  00003b14  2**0
                   CONTENTS, RELOC, READONLY
 
 security0.c.obj:     file format elf32-xtensa-le
@@ -127,15 +127,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  17 .debug_line   00000611  00000000  00000000  000016bf  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 18 .debug_str    00000eb0  00000000  00000000  00001cd0  2**0
+ 18 .debug_str    00000ec1  00000000  00000000  00001cd0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000003c  00000000  00000000  00002b80  2**0
+ 19 .comment      0000003c  00000000  00000000  00002b91  2**0
                   CONTENTS, READONLY
- 20 .xtensa.info  00000038  00000000  00000000  00002bbc  2**0
+ 20 .xtensa.info  00000038  00000000  00000000  00002bcd  2**0
                   CONTENTS, READONLY
- 21 .xt.lit       00000018  00000000  00000000  00002bf4  2**0
+ 21 .xt.lit       00000018  00000000  00000000  00002c05  2**0
                   CONTENTS, RELOC, READONLY
- 22 .xt.prop      00000120  00000000  00000000  00002c0c  2**0
+ 22 .xt.prop      00000120  00000000  00000000  00002c1d  2**0
                   CONTENTS, RELOC, READONLY
 
 security1.c.obj:     file format elf32-xtensa-le
@@ -208,15 +208,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  32 .debug_line   00000f50  00000000  00000000  00004b3d  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 33 .debug_str    00001550  00000000  00000000  00005a8d  2**0
+ 33 .debug_str    00001561  00000000  00000000  00005a8d  2**0
                   CONTENTS, READONLY, DEBUGGING
- 34 .comment      0000003c  00000000  00000000  00006fdd  2**0
+ 34 .comment      0000003c  00000000  00000000  00006fee  2**0
                   CONTENTS, READONLY
- 35 .xtensa.info  00000038  00000000  00000000  00007019  2**0
+ 35 .xtensa.info  00000038  00000000  00000000  0000702a  2**0
                   CONTENTS, READONLY
- 36 .xt.lit       00000048  00000000  00000000  00007051  2**0
+ 36 .xt.lit       00000048  00000000  00000000  00007062  2**0
                   CONTENTS, RELOC, READONLY
- 37 .xt.prop      00000654  00000000  00000000  00007099  2**0
+ 37 .xt.prop      00000654  00000000  00000000  000070aa  2**0
                   CONTENTS, RELOC, READONLY
 
 constants.pb-c.c.obj:     file format elf32-xtensa-le
@@ -807,15 +807,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  28 .debug_line   00000963  00000000  00000000  00001b5e  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 29 .debug_str    00000910  00000000  00000000  000024c1  2**0
+ 29 .debug_str    00000921  00000000  00000000  000024c1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 30 .comment      0000003c  00000000  00000000  00002dd1  2**0
+ 30 .comment      0000003c  00000000  00000000  00002de2  2**0
                   CONTENTS, READONLY
- 31 .xtensa.info  00000038  00000000  00000000  00002e0d  2**0
+ 31 .xtensa.info  00000038  00000000  00000000  00002e1e  2**0
                   CONTENTS, READONLY
- 32 .xt.lit       00000038  00000000  00000000  00002e45  2**0
+ 32 .xt.lit       00000038  00000000  00000000  00002e56  2**0
                   CONTENTS, RELOC, READONLY
- 33 .xt.prop      00000318  00000000  00000000  00002e7d  2**0
+ 33 .xt.prop      00000318  00000000  00000000  00002e8e  2**0
                   CONTENTS, RELOC, READONLY
 
 protocomm_httpd.c.obj:     file format elf32-xtensa-le
@@ -876,13 +876,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  26 .debug_line   00000ab8  00000000  00000000  0000261f  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 27 .debug_str    00000a45  00000000  00000000  000030d7  2**0
+ 27 .debug_str    00000a56  00000000  00000000  000030d7  2**0
                   CONTENTS, READONLY, DEBUGGING
- 28 .comment      0000003c  00000000  00000000  00003b1c  2**0
+ 28 .comment      0000003c  00000000  00000000  00003b2d  2**0
                   CONTENTS, READONLY
- 29 .xtensa.info  00000038  00000000  00000000  00003b58  2**0
+ 29 .xtensa.info  00000038  00000000  00000000  00003b69  2**0
                   CONTENTS, READONLY
- 30 .xt.lit       00000030  00000000  00000000  00003b90  2**0
+ 30 .xt.lit       00000030  00000000  00000000  00003ba1  2**0
                   CONTENTS, RELOC, READONLY
- 31 .xt.prop      000003cc  00000000  00000000  00003bc0  2**0
+ 31 .xt.prop      000003cc  00000000  00000000  00003bd1  2**0
                   CONTENTS, RELOC, READONLY

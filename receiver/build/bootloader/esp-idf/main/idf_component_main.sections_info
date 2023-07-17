@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/bootloader/esp-idf/main/libmain.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/bootloader/esp-idf/main/libmain.a:
 
 bootloader_start.c.obj:     file format elf32-xtensa-le
 
@@ -38,13 +38,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  16 .debug_line   0000042d  00000000  00000000  00000780  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 17 .debug_str    0000049c  00000000  00000000  00000bad  2**0
+ 17 .debug_str    000004ad  00000000  00000000  00000bad  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .comment      0000003c  00000000  00000000  00001049  2**0
+ 18 .comment      0000003c  00000000  00000000  0000105a  2**0
                   CONTENTS, READONLY
- 19 .xtensa.info  00000038  00000000  00000000  00001085  2**0
+ 19 .xtensa.info  00000038  00000000  00000000  00001096  2**0
                   CONTENTS, READONLY
- 20 .xt.lit       00000018  00000000  00000000  000010bd  2**0
+ 20 .xt.lit       00000018  00000000  00000000  000010ce  2**0
                   CONTENTS, RELOC, READONLY
- 21 .xt.prop      000000c0  00000000  00000000  000010d5  2**0
+ 21 .xt.prop      000000c0  00000000  00000000  000010e6  2**0
                   CONTENTS, RELOC, READONLY

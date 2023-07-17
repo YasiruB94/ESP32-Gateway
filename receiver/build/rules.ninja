@@ -1237,7 +1237,7 @@ rule C_STATIC_LIBRARY_LINKER__idf_component_main
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Cence-Power\.espressifMDF\tools\cmake\3.13.4\bin\cmake.exe -SC:\Users\Cence-Power\Documents\Firmware\projects\t2\receiver -BC:\Users\Cence-Power\Documents\Firmware\projects\t2\receiver\build
+  command = C:\Users\Cence-Power\.espressifMDF\tools\cmake\3.13.4\bin\cmake.exe -SC:\Users\Cence-Power\Documents\Firmware\GitHub\Gateway\ESP32-Gateway\receiver -BC:\Users\Cence-Power\Documents\Firmware\GitHub\Gateway\ESP32-Gateway\receiver\build
   description = Re-running CMake...
   generator = 1
 

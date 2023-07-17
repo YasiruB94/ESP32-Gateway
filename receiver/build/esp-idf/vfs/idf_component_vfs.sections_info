@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/vfs/libvfs.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/vfs/libvfs.a:
 
 vfs.c.obj:     file format elf32-xtensa-le
 
@@ -230,15 +230,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
 112 .debug_line   00001fc0  00000000  00000000  00009cf6  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-113 .debug_str    00001096  00000000  00000000  0000bcb6  2**0
+113 .debug_str    000010a7  00000000  00000000  0000bcb6  2**0
                   CONTENTS, READONLY, DEBUGGING
-114 .comment      0000003c  00000000  00000000  0000cd4c  2**0
+114 .comment      0000003c  00000000  00000000  0000cd5d  2**0
                   CONTENTS, READONLY
-115 .xtensa.info  00000038  00000000  00000000  0000cd88  2**0
+115 .xtensa.info  00000038  00000000  00000000  0000cd99  2**0
                   CONTENTS, READONLY
-116 .xt.lit       00000180  00000000  00000000  0000cdc0  2**0
+116 .xt.lit       00000180  00000000  00000000  0000cdd1  2**0
                   CONTENTS, RELOC, READONLY
-117 .xt.prop      00001ff8  00000000  00000000  0000cf40  2**0
+117 .xt.prop      00001ff8  00000000  00000000  0000cf51  2**0
                   CONTENTS, RELOC, READONLY
 
 vfs_uart.c.obj:     file format elf32-xtensa-le
@@ -433,13 +433,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  93 .debug_line   0000147e  00000000  00000000  00006904  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 94 .debug_str    0000156e  00000000  00000000  00007d82  2**0
+ 94 .debug_str    0000157f  00000000  00000000  00007d82  2**0
                   CONTENTS, READONLY, DEBUGGING
- 95 .comment      0000003c  00000000  00000000  000092f0  2**0
+ 95 .comment      0000003c  00000000  00000000  00009301  2**0
                   CONTENTS, READONLY
- 96 .xtensa.info  00000038  00000000  00000000  0000932c  2**0
+ 96 .xtensa.info  00000038  00000000  00000000  0000933d  2**0
                   CONTENTS, READONLY
- 97 .xt.lit       000000e0  00000000  00000000  00009364  2**0
+ 97 .xt.lit       000000e0  00000000  00000000  00009375  2**0
                   CONTENTS, RELOC, READONLY
- 98 .xt.prop      00001668  00000000  00000000  00009444  2**0
+ 98 .xt.prop      00001668  00000000  00000000  00009455  2**0
                   CONTENTS, RELOC, READONLY

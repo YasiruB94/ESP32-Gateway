@@ -1,4 +1,4 @@
-In archive C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/esp-idf/cxx/libcxx.a:
+In archive C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/esp-idf/cxx/libcxx.a:
 
 cxx_exception_stubs.cpp.obj:     file format elf32-xtensa-le
 
@@ -50,15 +50,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  22 .debug_line   000007ee  00000000  00000000  00003fc2  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 23 .debug_str    00002e56  00000000  00000000  000047b0  2**0
+ 23 .debug_str    00002e67  00000000  00000000  000047b0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 24 .comment      0000003c  00000000  00000000  00007606  2**0
+ 24 .comment      0000003c  00000000  00000000  00007617  2**0
                   CONTENTS, READONLY
- 25 .xtensa.info  00000038  00000000  00000000  00007642  2**0
+ 25 .xtensa.info  00000038  00000000  00000000  00007653  2**0
                   CONTENTS, READONLY
- 26 .xt.lit       00000030  00000000  00000000  0000767a  2**0
+ 26 .xt.lit       00000030  00000000  00000000  0000768b  2**0
                   CONTENTS, RELOC, READONLY
- 27 .xt.prop      000000e4  00000000  00000000  000076aa  2**0
+ 27 .xt.prop      000000e4  00000000  00000000  000076bb  2**0
                   CONTENTS, RELOC, READONLY
 
 cxx_guards.cpp.obj:     file format elf32-xtensa-le
@@ -131,13 +131,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  32 .debug_line   00000b06  00000000  00000000  00003fe0  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 33 .debug_str    000027ab  00000000  00000000  00004ae6  2**0
+ 33 .debug_str    000027bc  00000000  00000000  00004ae6  2**0
                   CONTENTS, READONLY, DEBUGGING
- 34 .comment      0000003c  00000000  00000000  00007291  2**0
+ 34 .comment      0000003c  00000000  00000000  000072a2  2**0
                   CONTENTS, READONLY
- 35 .xtensa.info  00000038  00000000  00000000  000072cd  2**0
+ 35 .xtensa.info  00000038  00000000  00000000  000072de  2**0
                   CONTENTS, READONLY
- 36 .xt.lit       00000030  00000000  00000000  00007305  2**0
+ 36 .xt.lit       00000030  00000000  00000000  00007316  2**0
                   CONTENTS, RELOC, READONLY
- 37 .xt.prop      00000288  00000000  00000000  00007335  2**0
+ 37 .xt.prop      00000288  00000000  00000000  00007346  2**0
                   CONTENTS, RELOC, READONLY

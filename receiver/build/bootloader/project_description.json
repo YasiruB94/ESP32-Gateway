@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Users/Cence-Power/Documents/Firmware/esp-mdf/esp-idf/components/bootloader/subproject",
-    "build_dir":          "C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/build/bootloader",
-    "config_file":        "C:/Users/Cence-Power/Documents/Firmware/projects/t2/receiver/sdkconfig",
+    "build_dir":          "C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/bootloader",
+    "config_file":        "C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
