@@ -24,17 +24,22 @@
 #include "esp_log.h"
 #include "esp_spi_flash.h"
 #include "cn_structs.h"
+#include "cngw_action_structs.h"
 
 #define GPIO_HANDSHAKE 2
 #define GPIO_MOSI 12
 #define GPIO_MISO 13
 #define GPIO_SCLK 14
 #define GPIO_CS 15
-#define BUFFER 100
+#define BUFFER 144
 static const char *TAG = "SPI_SLAVE";
 spi_bus_config_t buscfg;
 spi_slave_interface_config_t slvcfg;
 gpio_config_t io_conf;
+CCP_TX_FRAMES_t lmcontrol_res;// = malloc(sizeof(CCP_TX_FRAMES_t));
+
+//void CCP_HANDLER_Rx_Packet(const CCP_PACKET_t *const rx_packet, uint8_t *const is_bd_query_received);
+//esp_err_t create_dummy_action(struct CCP_TX_Frames *action);
 void my_post_setup_cb(spi_slave_transaction_t *trans)
 {
 
@@ -45,8 +50,9 @@ void my_post_trans_cb(spi_slave_transaction_t *trans)
 
     WRITE_PERI_REG(GPIO_OUT_W1TC_REG, (1 << GPIO_HANDSHAKE));
 }
-esp_err_t init_SPI(){
-        // Configuration for the SPI bus
+esp_err_t init_SPI()
+{
+    // Configuration for the SPI bus
     spi_bus_config_t buscfg = {
         .mosi_io_num = GPIO_MOSI,
         .miso_io_num = GPIO_MISO,
@@ -76,13 +82,10 @@ esp_err_t init_SPI(){
 
     // Initialize SPI slave interface
     return spi_slave_initialize(HSPI_HOST, &buscfg, &slvcfg, 1);
-    
-
 }
 
 void app_main()
-{ 
-    uint8_t n = 0;
+{
     esp_err_t ret;
     ret = nvs_flash_init();
     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
@@ -95,49 +98,101 @@ void app_main()
     memset(&t, 0, sizeof(t));
     ret = init_SPI();
     assert(ret == ESP_OK);
+
+    //lmcontrol_res.action->header.command_type = CNGW_HEADER_TYPE_Action_Commmand;
+    // lmcontrol_res.action->header.data_size = 0;  // Set appropriate data size
+     lmcontrol_res.action->header.crc = 5;
+    //ESP_LOGI(TAG, "lmcontrol_res.generic_header->crc: %d",sizeof(lmcontrol_res));
+   
+
+
     while (1)
     {
-        char sendbuf[BUFFER];
-        uint8_t recvbuf[sizeof(Buffer_t)];
-        Buffer_t *testbuf = malloc(sizeof(Buffer_t));
-        if (testbuf == NULL)
-        {
-            ESP_LOGE(TAG, "Error in testbuf");
-        }
-        else
-        {
-            memset(testbuf, 0, sizeof(Buffer_t));
-            memset(recvbuf, 0, sizeof(Buffer_t));
-            sprintf(sendbuf, "ESP32 transmission # %u.", n);
+        uint8_t recvbuf[BUFFER];
+        uint8_t sendbuf[BUFFER];
+        memset(recvbuf, 0, sizeof(recvbuf));
+        memset(sendbuf, 0, sizeof(sendbuf));
 
-            // Set up a transaction of 128 bytes to send/receive
-            t.length = 128 * 8;
-            t.tx_buffer = sendbuf;
-            t.rx_buffer = recvbuf;
-            /* This call enables the SPI slave interface to send/receive to the sendbuf and recvbuf. The transaction is
-            initialized by the SPI master, however, so it will not actually happen until the master starts a hardware transaction
-            by pulling CS low and pulsing the clock etc. In this specific example, we use the handshake line, pulled up by the
-            .post_setup_cb callback that is called as soon as a transaction is ready, to let the master know it is free to transfer
-            data.
+        // Set up a transaction of 128 bytes to send/receive
+        t.length = 128 * 8; // sizeof(Buffer_t); // 128 * 8;
+        t.tx_buffer = NULL; // sendbuf;
+
+        t.rx_buffer = recvbuf;
+
+        ret = spi_slave_transmit(HSPI_HOST, &t, portMAX_DELAY);
+        if (ret == ESP_OK)
+        {
+             /*
+            printf("Received: ");
+            int i = 0;
+            while (i < sizeof(recvbuf))
+            {
+                printf("%02X", (int)recvbuf[i]);
+                i++;
+            }
+            printf("\n");
             */
-            // ret=spi_slave_transmit(HSPI_HOST, &t, portMAX_DELAY);
-            ret = spi_slave_queue_trans(HSPI_HOST, &t, portMAX_DELAY);
-            if (ret == ESP_OK)
-            {
-                memcpy(testbuf, recvbuf, sizeof(Buffer_t));
-                ESP_LOGI(TAG, "Received(%u): testbuf->buffer: %u || testbuf->size: %d", n, (uint8_t)(testbuf->buffer), (uint16_t)(testbuf->size));
-                
-                n++;
-            }
-            else
-            {
-                ESP_LOGI(TAG, "error code: %s", esp_err_to_name(ret));
-            }
 
-            // spi_slave_transmit does not return until the master has done a transmission, so by here we have sent our data and
-            // received data from the master. Print it.
+            CCP_HANDSHAKE_CN_MESSAGES_t cn_messages = {0}; /*Must be cleared to 0*/
+            //CCP_PACKET_t            packet          = { 0 };
+            size_t bytes = 0;
+            //CCP_HANDLER_Rx_Packet(&packet, 1);
 
-            free(testbuf);
+
+
+
+
+
+
+            cn_messages.command = *((CNGW_Handshake_Command *)recvbuf);
+            switch (cn_messages.command)
+            {
+            case CNGW_Handshake_CMD_CN1:
+                //cn_messages.cn1_message = *((CNGW_Handshake_CN1_t *)buffer);
+                //bytes = sizeof(cn_messages.cn1_message);
+                printf("case 1\n");
+                break;
+            case CNGW_Handshake_CMD_CN2:
+                cn_messages.cn2_message = *((CNGW_Handshake_CN2_t *)recvbuf);
+                bytes = sizeof(cn_messages.cn2_message);
+                printf("case 2 sizeof(bytes): %d\n",bytes);
+                printf("cn_messages.cn2_message.command: %d\n", cn_messages.cn2_message.command);
+                printf("cn_messages.cn2_message.status: %d\n", cn_messages.cn2_message.status);
+                printf("cn_messages.cn2_message.hmac size: %d\n", sizeof(cn_messages.cn2_message.hmac));
+
+                break;
+            default:
+                //printf("default\n");
+                break;
+            }
+            // CCP_PACKET_t packet = { 0 };
+            // xQueueReceive(&recvbuf, &packet, 0);
         }
     }
 }
+
+//void CCP_HANDLER_Rx_Packet(const CCP_PACKET_t *const rx_packet, uint8_t *const is_bd_query_received)
+//{
+    /*
+    ASSERT_DEBUG_MODE( NULL != rx_packet );
+    ASSERT_DEBUG_MODE( NULL != is_bd_query_received );
+
+
+    if( NULL != rx_packet->start && NULL != rx_packet->end )
+    {
+        ASSERTF(rx_packet->start < rx_packet->end, "CCP_HANDLER_Rx_Packet(): Start >= End. The ISRs did this");
+
+        *is_bd_query_received = 0;
+
+        CCP_PACKET_t unparsed_frames = *rx_packet;
+
+        while( NULL != unparsed_frames.start )
+        {
+            unparsed_frames.start = Parse_1_Frame(&unparsed_frames, is_bd_query_received);
+            ASSERT_DEBUG_MODE(rx_packet->end == unparsed_frames.end); 
+        }
+    }
+    */
+//}
+
+
