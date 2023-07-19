@@ -9,7 +9,8 @@
     "functional": "cpp",
     "future": "cpp",
     "limits": "cpp",
-    "*.ipp": "cpp"
+    "*.ipp": "cpp",
+    "system_error": "c"
   },
   "idf.adapterTargetName": "esp32",
   "C_Cpp.errorSquiggles": "disabled"

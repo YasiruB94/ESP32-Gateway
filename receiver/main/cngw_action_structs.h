@@ -158,6 +158,5 @@ union CCP_TX_FRAMES
     /*Access only pointer for ease of use and strictness*/
     const void *const                       raw_data;
     const CNGW_Message_Header_t *const      generic_header;
-    uint8_t test;
 };
 typedef union CCP_TX_FRAMES CCP_TX_FRAMES_t;
