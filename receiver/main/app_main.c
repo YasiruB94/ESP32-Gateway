@@ -31,15 +31,12 @@
 #define GPIO_SCLK 14
 #define GPIO_CS 15
 #define BUFFER 90
-
+static const char *TAG = "ESP_SPI";
+SemaphoreHandle_t sendBufferMutex;
 spi_bus_config_t buscfg;
 spi_slave_interface_config_t slvcfg;
-CCP_TX_FRAMES_t lmcontrol_res;
-CNGW_Action_Frame_t actionFrame;
-const CNGW_Message_Header_t message_header_instance = {
-    .command_type = CNGW_HEADER_TYPE_Action_Commmand,
-    .data_size = 30,
-    .crc = 30};
+uint8_t *sendBuffer;
+size_t sendBufferSize = 0;
 esp_err_t init_SPI()
 {
     // Configuration for the SPI bus
@@ -66,6 +63,9 @@ esp_err_t init_SPI()
 
 esp_err_t dummy_Action_init()
 {
+    // create lmcontrol_res which contains the action command.
+    CCP_TX_FRAMES_t lmcontrol_res;
+    CNGW_Action_Frame_t actionFrame;
     actionFrame.header.command_type = CNGW_HEADER_TYPE_Action_Commmand;
     actionFrame.header.data_size = 30; //
     actionFrame.header.crc = 30;       //
@@ -83,53 +83,129 @@ esp_err_t dummy_Action_init()
     actionFrame.message.crc = 30; //
 
     lmcontrol_res.action = &actionFrame;
+    /*
+    const CNGW_Message_Header_t message_header_instance = {
+    .command_type = CNGW_HEADER_TYPE_Action_Commmand,
+    .data_size = 30,
+    .crc = 30};
+    */
     // const CNGW_Message_Header_t *const temp_header_ptr = &message_header_instance;
     // lmcontrol_res.raw_data = "";//
     // CNGW_Message_Header_t temp_header;
     // memcpy(&temp_header, &message_header_instance, sizeof(CNGW_Message_Header_t));
     // lmcontrol_res.generic_header =  temp_header_ptr;
+
+    // Reallocate the required memory size of the sendBuffer before copying the required command to it
+    memset(sendBuffer, 0,  sendBufferSize);
+    sendBufferSize = sizeof(CCP_TX_FRAMES_t) * sizeof(uint8_t);
+    uint8_t *resizedBuffer = realloc(sendBuffer, sendBufferSize);
+    if (resizedBuffer == NULL)
+    {
+        printf("resizedBuffer memory allocation failed\n");
+        return ESP_FAIL;
+    }
+    sendBuffer = resizedBuffer;
+
+    // copy the data of the lmcontrol_res to sendBuffer
+    memcpy(sendBuffer, &lmcontrol_res, sizeof(CCP_TX_FRAMES_t));
     return ESP_OK;
 }
 
-void SPI_RxTx()
-{   
-    //create lmcontrol_res which contains the action command.
-    esp_err_t ret = dummy_Action_init();
-    assert(ret == ESP_OK);
-    //create a sendbuf array and copy lmcontrol_res to it.
-    uint8_t sendbuf[sizeof(CCP_TX_FRAMES_t)];
-    memset(sendbuf, 0, sizeof(CCP_TX_FRAMES_t));
-    memcpy(sendbuf, &lmcontrol_res, sizeof(CCP_TX_FRAMES_t));
-    //check the content of sendbuf
-    printf("sendbuf: ");
-    int i = 0;
-    while (i < sizeof(sendbuf))
+esp_err_t send_char_array()
+{
+    // create lmcontrol_res which contains the action command.
+    char sendbuf[BUFFER]="";
+    sprintf(sendbuf, "data from ESP32 as a char array");
+    //printf("size of sendbuf: %d\n", sizeof(sendbuf));
+    memset(sendBuffer, 0,  sendBufferSize);
+    sendBufferSize =  BUFFER * sizeof(uint8_t);
+    uint8_t *resizedBuffer = realloc(sendBuffer,sendBufferSize);
+    if (resizedBuffer == NULL)
     {
-        printf("%02X", (int)sendbuf[i]);
+        printf("resizedBuffer memory allocation failed\n");
+        return ESP_FAIL;
+    }
+    sendBuffer = resizedBuffer;
+    // copy the data of the lmcontrol_res to sendBuffer
+    memcpy(sendBuffer, sendbuf, sizeof(sendbuf));
+    printf("sendBuffer data: %s\n", (char*)sendBuffer);
+    return ESP_OK;
+}
+// Update the command to be sent to CN.
+void CommandChange(int choice)
+{
+    esp_err_t ret = ESP_OK;
+    if (xSemaphoreTake(sendBufferMutex, (TickType_t)0) != pdTRUE)
+    {
+        printf("CommandChange Failed to acquire the mutex\n");
+        return;
+    }
+    switch (choice)
+    {
+    case 1:
+        ret = dummy_Action_init();
+        break;
+    case 2:
+        ret = send_char_array();
+        break;
+    default:
+        printf("Command change, unidentified choice\n");
+        break;
+    }
+    // printout if any error occured
+    if (ret != ESP_OK)
+    {
+        printf("Error in CommandChange: %s\n", esp_err_to_name(ret));
+    }
+    // printout the contents of sendbuffer
+    printf("sendbuffer: ");
+    int i = 0;
+    while (i < sizeof(sendBuffer))
+    {
+        printf("%02X", (int)sendBuffer[i]);
         i++;
     }
     printf("\n");
     printf("==================\n");
+    xSemaphoreGive(sendBufferMutex);
+}
+
+void SPI_RxTx()
+{    
     //define slave transaction and set memory to zero
+    CommandChange(1);
     spi_slave_transaction_t t;
     memset(&t, 0, sizeof(t));
     //create a recvbuf array and set memory to zero
     uint8_t recvbuf[BUFFER];
     memset(recvbuf, 0, sizeof(recvbuf));
-    //set the slave transaction tx_buffer and rx_buffer to the created buffers above
+    
     t.length = 128 * 8;
-    // t.tx_buffer = NULL;
-    t.tx_buffer = sendbuf;
+    //t.tx_buffer = NULL; (uncomment if no data sending is needed)
+    //t.tx_buffer = sendbuf;
+    t.tx_buffer = sendBuffer;
     t.rx_buffer = recvbuf;
-
+    esp_err_t ret;
+    uint8_t counter = 0;
     while (1)
-    {   //after each spi transmit, reset the recvbuf memory
+    { 
+        // after each spi transmit, reset the recvbuf memory
         memset(recvbuf, 0, sizeof(recvbuf));
-        //perform a SPI transaction. waits indefinetly until theres a returned item.
+        //set the slave transaction tx_buffer and rx_buffer to the created buffers above
+        t.length = 128 * 8;
+        //t.tx_buffer = NULL; (uncomment if no data sending is needed)
+        t.tx_buffer = sendBuffer;
+        t.rx_buffer = recvbuf;
+        // perform a SPI transaction. waits indefinetly until theres a returned item.
         ret = spi_slave_transmit(HSPI_HOST, &t, portMAX_DELAY);
-        //checks if there was a proper SPI transaction and that the data is not the echo of sent data
-        if (ret == ESP_OK && memcmp(sendbuf, recvbuf, sizeof(sendbuf)))
+        if (xSemaphoreTake(sendBufferMutex, (TickType_t)0) != pdTRUE)
         {
+            printf("SPI_RxTx Failed to acquire the mutex\n");
+            ret = ESP_FAIL;
+        }
+        // checks if there was a proper SPI transaction and that the data is not the echo of sent data
+        if (ret == ESP_OK && memcmp(sendBuffer, recvbuf, sizeof(&sendBuffer)))
+        {   counter++;
             CCP_HANDSHAKE_CN_MESSAGES_t cn_messages = {0};
             size_t bytes = 0;
             cn_messages.command = *((CNGW_Handshake_Command *)recvbuf);
@@ -167,13 +243,27 @@ void SPI_RxTx()
             }
             printf("\n");
         }
-        //either the spi transaction did not happen well, or the received data is the echo of sent data
-        else{
-            if(ret != ESP_OK){
+        // either the spi transaction did not happen well, or the received data is the echo of sent data
+        else
+        {
+            if (ret != ESP_OK)
+            {
                 printf("Error in SPI transaction. error code: %s\n", esp_err_to_name(ret));
             }
         }
+        xSemaphoreGive(sendBufferMutex);
+        //for debugging, the following logic switches between pre defined commands to be sent to CN
+        //The switching is depending on the amount of messages received by ESP.
+        //later, this command change should be done according to the type of commands received by ESP.
+        if (counter ==10){
+            CommandChange(2); 
+        }
+        if (counter ==20){
+            CommandChange(1);
+            counter = 0;
+        }
     }
+    ESP_LOGE(TAG, "SPI_RxTx Exit from while loop");
 }
 
 void app_main()
@@ -186,8 +276,30 @@ void app_main()
         ret = nvs_flash_init();
     }
     ESP_ERROR_CHECK(ret);
+    sendBufferMutex = xSemaphoreCreateMutex();
+    if (sendBufferMutex == NULL)
+    {
+        ESP_LOGE(TAG, "Failed to create mutex");
+        ESP_LOGI(TAG, "ESP restarting...");
+        vTaskDelay(2000 / portTICK_PERIOD_MS);
+        esp_restart();
+    }
 
     ret = init_SPI();
-    assert(ret == ESP_OK);
-    xTaskCreatePinnedToCore(SPI_RxTx, "SPI_RxTx", 8 * 1024, NULL, 5, NULL, 0);
+    if (ret == ESP_OK)
+    {
+        sendBuffer = malloc(sizeof(uint8_t));
+        if (sendBuffer == NULL)
+        {
+            ESP_LOGE(TAG, "sendBuffer memory allocation failed");
+        }
+        xTaskCreatePinnedToCore(SPI_RxTx, "SPI_RxTx", 8 * 1024, NULL, 5, NULL, 0);
+    }
+    else
+    {
+        ESP_LOGE(TAG, "SPI failed to initialize. Error: %s", esp_err_to_name(ret));
+        ESP_LOGI(TAG, "ESP restarting...");
+        vTaskDelay(2000 / portTICK_PERIOD_MS);
+        esp_restart();
+    }
 }
