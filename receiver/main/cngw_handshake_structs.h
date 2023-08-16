@@ -1,0 +1,1 @@
+#define CNGW_SET_HEADER_DATA_SIZE(header, word_to_set)      ((header)->data_size = word_to_set)

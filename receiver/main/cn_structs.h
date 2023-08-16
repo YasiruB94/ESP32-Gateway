@@ -1,3 +1,4 @@
+
 #define GW_SPI_RX_MAX_BUFFER_SIZE           (144u)                                      /*Maximum RX DMA buffer for Gateway MCU. I.e Sizeof(CNGW_Log_Message_Frame_t)*/
 #define RX_BUFFER_SIZE                  (GW_SPI_RX_MAX_BUFFER_SIZE * 4u)
 
@@ -115,4 +116,99 @@ typedef union CCP_HANDSHAKE_CN_MESSAGES_t
     CNGW_Handshake_CN1_t    cn1_message;
     CNGW_Handshake_CN2_t    cn2_message;
 } __attribute__((packed)) CCP_HANDSHAKE_CN_MESSAGES_t;
+
+/**@brief Header type define a class of messages.
+ *        These values are used for bit position shifting.
+ *        The largest value must not exceed 32*/
+typedef enum CNGW_Header_Type
+{
+	CNGW_HEADER_TYPE_Action_Commmand                = 0x01,
+	CNGW_HEADER_TYPE_Query_Command                  = 0x02,
+	CNGW_HEADER_TYPE_Configuration_Command          = 0x03,
+	CNGW_HEADER_TYPE_Handshake_Command              = 0x06,
+	CNGW_HEADER_TYPE_Handshake_Response             = 0x07,
+	CNGW_HEADER_TYPE_Firmware_Update_Command        = 0x08,
+	CNGW_HEADER_TYPE_Status_Update_Command          = 0x09,
+	CNGW_HEADER_TYPE_Log_Command                    = 0x0A,
+	CNGW_HEADER_TYPE_Ota_Command                    = 0x0B,
+	CNGW_HEADER_TYPE_Device_Report                  = 0x0C,
+	CNGW_HEADER_TYPE_Control_Command                = 0x0D,
+	CNGW_HEADER_TYPE_End_Marker,
+
+} __attribute__((packed)) CNGW_Header_Type;
+/**
+ * @brief The bit layout for the firmware version.
+ */
+typedef struct CNGW_Firmware_Version_t
+{
+    uint8_t   major     : 8;
+    uint8_t   minor     : 8;
+    uint32_t  ci        : 29;
+    uint8_t   branch_id : 3;
+} __attribute__((packed)) CNGW_Firmware_Version_t;
+
+
+/**
+ * @brief Message Header structure used for all communication
+ */
+typedef struct CNGW_Message_Header_t
+{
+    CNGW_Header_Type    command_type;
+
+    /**@brief
+     * The CNGW_Message_Header_t::data_size is in big endian format.
+     * The value should be read and written to using the macros
+     * *) CNGW_SET_HEADER_DATA_SIZE
+     * *) CNGW_GET_HEADER_DATA_SIZE
+     *
+     * The sum of bytes that make up the message
+     * that sent with header.
+     * Some message have variable lengths, the structures
+     * are used to define upper memory boundaries.
+     * If a structure is of 128 byte, but only 30 bytes
+     * were filled into this structure then this value is 30.
+     * This can occour when messages that have variable lengths.
+     */
+    uint16_t            data_size;
+    uint8_t             crc;
+
+} __attribute__((packed)) CNGW_Message_Header_t;
+
+/**
+ * @brief Structure for the handshake GW1 response message from Gateway to Control MCU
+ *
+ * This message includes information about the gateway (serial number, firmware version, etc) as well as the
+ * response to the challenge which was received in the #CNGW_Handshake_CMD_CN1.  THe response should be generated using
+ * the ATMEL chip's #ATMEL_Challenge_MAC function
+ *
+ * Message is 93 bytes in length (not including header)
+ *
+ * @note This is send under the header type #CNGW_HEADER_TYPE_Handshake_Response
+ */
+typedef struct CNGW_Handshake_GW1_t
+{
+	CNGW_Handshake_Command  command;                                                /** @brief Handshake command number. Should be #CNGW_Handshake_CMD_GW1 */
+	CNGW_Handshake_Status   status;                                                 /** @brief handshaking status (status of processing the CN1/GW1 message */
+	uint8_t                 gateway_serial[CNGW_SERIAL_NUMBER_LENGTH];              /** @brief ATMEL Serial Number of the gateway */
+	uint16_t                gateway_model;                                          /** @brief model number of the gateway */
+	CNGW_Firmware_Version_t firmware_version;                                       /** @brief The gateway firmware version*/
+	CNGW_Firmware_Version_t bootloader_version;                                     /** @brief The gateway bootloader version*/
+	uint32_t                reserved;                                               /** @brief Not used, can be left 0x00000000 */
+	uint8_t                 challenge_response[CNGW_CHALLENGE_RESPONSE_LENGTH];     /** @brief Response to the challenge sent in the CN1 message */
+	uint8_t                 hmac[CNGW_HMAC_LENGTH];                                 /** @brief HMAC of this entire structure (excluding the HMAC itself */
+} __attribute__((packed)) CNGW_Handshake_GW1_t;
+
+
+
+/**
+ * @brief The frame for CNGW_Handshake_GW1_t
+ */
+typedef struct CNGW_Handshake_GW1_Frame_t
+{
+    CNGW_Message_Header_t   header;
+    CNGW_Handshake_GW1_t    message;
+} __attribute__((packed)) CNGW_Handshake_GW1_Frame_t;
+
+
+
 

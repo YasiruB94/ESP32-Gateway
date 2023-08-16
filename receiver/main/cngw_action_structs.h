@@ -1,48 +1,6 @@
-/**@brief Header type define a class of messages.
- *        These values are used for bit position shifting.
- *        The largest value must not exceed 32*/
-typedef enum CNGW_Header_Type
-{
-	CNGW_HEADER_TYPE_Action_Commmand                = 0x01,
-	CNGW_HEADER_TYPE_Query_Command                  = 0x02,
-	CNGW_HEADER_TYPE_Configuration_Command          = 0x03,
-	CNGW_HEADER_TYPE_Handshake_Command              = 0x06,
-	CNGW_HEADER_TYPE_Handshake_Response             = 0x07,
-	CNGW_HEADER_TYPE_Firmware_Update_Command        = 0x08,
-	CNGW_HEADER_TYPE_Status_Update_Command          = 0x09,
-	CNGW_HEADER_TYPE_Log_Command                    = 0x0A,
-	CNGW_HEADER_TYPE_Ota_Command                    = 0x0B,
-	CNGW_HEADER_TYPE_Device_Report                  = 0x0C,
-	CNGW_HEADER_TYPE_Control_Command                = 0x0D,
-	CNGW_HEADER_TYPE_End_Marker,
 
-} __attribute__((packed)) CNGW_Header_Type;
 
-/**
- * @brief Message Header structure used for all communication
- */
-typedef struct CNGW_Message_Header_t
-{
-    CNGW_Header_Type    command_type;
 
-    /**@brief
-     * The CNGW_Message_Header_t::data_size is in big endian format.
-     * The value should be read and written to using the macros
-     * *) CNGW_SET_HEADER_DATA_SIZE
-     * *) CNGW_GET_HEADER_DATA_SIZE
-     *
-     * The sum of bytes that make up the message
-     * that sent with header.
-     * Some message have variable lengths, the structures
-     * are used to define upper memory boundaries.
-     * If a structure is of 128 byte, but only 30 bytes
-     * were filled into this structure then this value is 30.
-     * This can occour when messages that have variable lengths.
-     */
-    uint16_t            data_size;
-    uint8_t             crc;
-
-} __attribute__((packed)) CNGW_Message_Header_t;
 
 typedef enum CNGW_Action_Command
 {
@@ -154,9 +112,36 @@ union CCP_TX_FRAMES
 {
     /*Frame which are supported*/
     CNGW_Action_Frame_t                     *action;
+    CNGW_Handshake_GW1_Frame_t              *gw1;
 
     /*Access only pointer for ease of use and strictness*/
     const void *const                       raw_data;
     const CNGW_Message_Header_t *const      generic_header;
 };
 typedef union CCP_TX_FRAMES CCP_TX_FRAMES_t;
+
+
+
+///////////////////////////////////////////////////////////////////
+
+
+/**
+ * @brief The frame for CNGW_Handshake_CN1_t
+ */
+typedef struct CNGW_Handshake_CN1_Frame_t
+{
+    CNGW_Message_Header_t   header;
+    CNGW_Handshake_CN1_t    message;
+} __attribute__((packed)) CNGW_Handshake_CN1_Frame_t;
+
+/**
+ * @brief The frame for CNGW_Handshake_Ack_t
+ */
+typedef struct CNGW_Handshake_Ack_Frame_t
+{
+    CNGW_Message_Header_t   header;
+    CNGW_Handshake_Ack_t    message;
+} __attribute__((packed)) CNGW_Handshake_Ack_Frame_t;
+
+typedef CNGW_Handshake_Ack_Frame_t CNGW_Handshake_CN2_Frame_t;
+typedef CNGW_Handshake_Ack_Frame_t CNGW_Handshake_GW2_Frame_t;

@@ -10,8 +10,12 @@
     "future": "cpp",
     "limits": "cpp",
     "*.ipp": "cpp",
-    "system_error": "c"
+    "system_error": "c",
+    "array": "c",
+    "string_view": "c",
+    "rtc_cntl_reg.h": "c"
   },
   "idf.adapterTargetName": "esp32",
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "idf.portWin": "COM4"
 }
