@@ -31,6 +31,8 @@
 
 void GW_process_received_data(void *pvParameters);
 void dum_pin_function(void *pvParameters);
+void dum_I2C_function(void *pvParameters);
+
 
 
 #endif

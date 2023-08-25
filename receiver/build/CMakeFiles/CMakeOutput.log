@@ -35,18 +35,18 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_bd62d"
-[1/2] Building C object CMakeFiles/cmTC_bd62d.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_bd62d
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_91327"
+[1/2] Building C object CMakeFiles/cmTC_91327.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_91327
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_41325"
-[1/2] Building C object CMakeFiles/cmTC_41325.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_41325
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_c5f04"
+[1/2] Building C object CMakeFiles/cmTC_c5f04.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_c5f04
 Using built-in specs.
 COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe
 COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe
@@ -56,8 +56,8 @@ Thread model: posix
 gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d) 
 COMPILER_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_41325'
- c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\cczBEX5X.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_41325 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_41325.dir/CMakeCCompilerABI.c.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_c5f04'
+ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccLWC5Uo.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_c5f04 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_c5f04.dir/CMakeCCompilerABI.c.obj
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -65,9 +65,9 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_41325"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_41325.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [[2/2] Linking C executable cmTC_41325]
+  ignore line: [Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_c5f04"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_c5f04.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_c5f04]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe]
@@ -83,22 +83,22 @@ Parsed C implicit link information from above output:
   ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/]
   ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/]
   ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_41325']
-  link line: [ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\cczBEX5X.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_41325 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_41325.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_c5f04']
+  link line: [ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccLWC5Uo.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_c5f04 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_c5f04.dir/CMakeCCompilerABI.c.obj]
     arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\cczBEX5X.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccLWC5Uo.res] ==> ignore
     arg [--sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_41325] ==> ignore
+    arg [cmTC_c5f04] ==> ignore
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_41325.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_c5f04.dir/CMakeCCompilerABI.c.obj] ==> ignore
   collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
   collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -114,9 +114,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_ec5d9"
-[1/2] Building C object CMakeFiles/cmTC_ec5d9.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_ec5d9
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_0437d"
+[1/2] Building C object CMakeFiles/cmTC_0437d.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_0437d
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -129,9 +129,9 @@ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_951ae"
-[1/2] Building C object CMakeFiles/cmTC_951ae.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_951ae
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_2eb4b"
+[1/2] Building C object CMakeFiles/cmTC_2eb4b.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_2eb4b
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -144,9 +144,9 @@ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_b519f"
-[1/2] Building C object CMakeFiles/cmTC_b519f.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_b519f
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_d3776"
+[1/2] Building C object CMakeFiles/cmTC_d3776.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_d3776
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -157,18 +157,18 @@ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_91288"
-[1/2] Building CXX object CMakeFiles/cmTC_91288.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_91288
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_dc04a"
+[1/2] Building CXX object CMakeFiles/cmTC_dc04a.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_dc04a
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_84e48"
-[1/2] Building CXX object CMakeFiles/cmTC_84e48.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_84e48
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_883ea"
+[1/2] Building CXX object CMakeFiles/cmTC_883ea.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_883ea
 Using built-in specs.
 COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe
 COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe
@@ -178,8 +178,8 @@ Thread model: posix
 gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d) 
 COMPILER_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_84e48'
- c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccJtQeAg.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_84e48 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_84e48.dir/CMakeCXXCompilerABI.cpp.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_883ea'
+ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccmLtbQO.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_883ea -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_883ea.dir/CMakeCXXCompilerABI.cpp.obj
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -187,9 +187,9 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_84e48"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_84e48.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [[2/2] Linking CXX executable cmTC_84e48]
+  ignore line: [Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_883ea"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_883ea.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_883ea]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe]
@@ -205,22 +205,22 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/]
   ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/]
   ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_84e48']
-  link line: [ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccJtQeAg.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_84e48 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_84e48.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_883ea']
+  link line: [ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccmLtbQO.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_883ea -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_883ea.dir/CMakeCXXCompilerABI.cpp.obj]
     arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccJtQeAg.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccmLtbQO.res] ==> ignore
     arg [--sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_84e48] ==> ignore
+    arg [cmTC_883ea] ==> ignore
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
     arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_84e48.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_883ea.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
   collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
   collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -236,9 +236,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_272db"
-[1/2] Building CXX object CMakeFiles/cmTC_272db.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_272db
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_a5844"
+[1/2] Building CXX object CMakeFiles/cmTC_a5844.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_a5844
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -304,9 +304,9 @@ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_05db9"
-[1/2] Building CXX object CMakeFiles/cmTC_05db9.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_05db9
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_fe16c"
+[1/2] Building CXX object CMakeFiles/cmTC_fe16c.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_fe16c
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -372,9 +372,9 @@ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_91cc8"
-[1/2] Building CXX object CMakeFiles/cmTC_91cc8.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_91cc8
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_c5cf2"
+[1/2] Building CXX object CMakeFiles/cmTC_c5cf2.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_c5cf2
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 
@@ -440,9 +440,514 @@ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_2083e"
-[1/2] Building CXX object CMakeFiles/cmTC_2083e.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_2083e
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_ea5ed"
+[1/2] Building CXX object CMakeFiles/cmTC_ea5ed.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_ea5ed
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe 
+Build flags: -mlongcalls
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe 
+Build flags: -mlongcalls
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xtensa-esp32-elf-gcc.exe (crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d) 5.2.0
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_db154"
+[1/2] Building C object CMakeFiles/cmTC_db154.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_db154
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_214cc"
+[1/2] Building C object CMakeFiles/cmTC_214cc.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_214cc
+Using built-in specs.
+COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe
+COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d) 
+COMPILER_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_214cc'
+ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccXXICi0.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_214cc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_214cc.dir/CMakeCCompilerABI.c.obj
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_214cc"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_214cc.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_214cc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d) ]
+  ignore line: [COMPILER_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_214cc']
+  link line: [ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccXXICi0.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_214cc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_214cc.dir/CMakeCCompilerABI.c.obj]
+    arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\ccXXICi0.res] ==> ignore
+    arg [--sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_214cc] ==> ignore
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_214cc.dir/CMakeCCompilerABI.c.obj] ==> ignore
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_cc1df"
+[1/2] Building C object CMakeFiles/cmTC_cc1df.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_cc1df
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_23d4b"
+[1/2] Building C object CMakeFiles/cmTC_23d4b.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_23d4b
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_0abda"
+[1/2] Building C object CMakeFiles/cmTC_0abda.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_0abda
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_10c5d"
+[1/2] Building CXX object CMakeFiles/cmTC_10c5d.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_10c5d
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_da74d"
+[1/2] Building CXX object CMakeFiles/cmTC_da74d.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_da74d
+Using built-in specs.
+COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe
+COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d) 
+COMPILER_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/;c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_da74d'
+ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\cctZQAva.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_da74d -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_da74d.dir/CMakeCXXCompilerABI.cpp.obj
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_da74d"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_da74d.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_da74d]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\Cence-Power\.espressifMDF\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-97-gc752ad5d) ]
+  ignore line: [COMPILER_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib/]
+  ignore line: [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-nostdlib' '-v' '-o' 'cmTC_da74d']
+  link line: [ c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\cctZQAva.res --sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot -o cmTC_da74d -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib -Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib CMakeFiles/cmTC_da74d.dir/CMakeCXXCompilerABI.cpp.obj]
+    arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\CENCE-~1\AppData\Local\Temp\cctZQAva.res] ==> ignore
+    arg [--sysroot=c:\users\cence-power\.espressifmdf\tools\xtensa-esp32-elf\1.22.0-97-gc752ad5d-5.2.0\xtensa-esp32-elf\bin\../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_da74d] ==> ignore
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [-Lc:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_da74d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib]
+  collapse library dir [c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../xtensa-esp32-elf/sysroot/usr/lib] ==> [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/lib/gcc;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/lib;C:/Users/Cence-Power/.espressifMDF/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_a6ebd"
+[1/2] Building CXX object CMakeFiles/cmTC_a6ebd.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_a6ebd
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_80e42"
+[1/2] Building CXX object CMakeFiles/cmTC_80e42.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_80e42
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_02ebb"
+[1/2] Building CXX object CMakeFiles/cmTC_02ebb.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_02ebb
+c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/Cence-Power/Documents/Firmware/GitHub/Gateway/ESP32-Gateway/receiver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cence-Power/.espressifMDF/tools/ninja/1.9.0/ninja.exe" "cmTC_6b40c"
+[1/2] Building CXX object CMakeFiles/cmTC_6b40c.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_6b40c
 c:/users/cence-power/.espressifmdf/tools/xtensa-esp32-elf/1.22.0-97-gc752ad5d-5.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
 
 

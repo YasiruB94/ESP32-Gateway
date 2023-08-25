@@ -17,28 +17,28 @@ typedef struct CNGW_Hardware_Version_t CNGW_Hardware_Version_t;
  * to index buffer and in loops.
  * Do not change these
  */
-typedef enum CNGW_Source_MCU
-{
-    CNGW_SOURCE_MCU_CN  = 0,
-    CNGW_SOURCE_MCU_SW  = 1,
-    CNGW_SOURCE_MCU_GW  = 2,
+//typedef enum CNGW_Source_MCU
+//{
+//    CNGW_SOURCE_MCU_CN  = 0,
+//    CNGW_SOURCE_MCU_SW  = 1,
+//    CNGW_SOURCE_MCU_GW  = 2,
 
     /*These Driver field have to be linearly aligned
      * Because it's used in a loop count and
      * memory indexing on GW*/
-    CNGW_SOURCE_MCU_DR0 = 3,
-    CNGW_SOURCE_MCU_DR1 = 4,
-    CNGW_SOURCE_MCU_DR2 = 5,
-    CNGW_SOURCE_MCU_DR3 = 6,
-    CNGW_SOURCE_MCU_DR4 = 7,
-    CNGW_SOURCE_MCU_DR5 = 8,
-    CNGW_SOURCE_MCU_DR6 = 9,
-    CNGW_SOURCE_MCU_DR7 = 10,
+//    CNGW_SOURCE_MCU_DR0 = 3,
+//    CNGW_SOURCE_MCU_DR1 = 4,
+//    CNGW_SOURCE_MCU_DR2 = 5,
+//    CNGW_SOURCE_MCU_DR3 = 6,
+//    CNGW_SOURCE_MCU_DR4 = 7,
+//    CNGW_SOURCE_MCU_DR5 = 8,
+//    CNGW_SOURCE_MCU_DR6 = 9,
+//    CNGW_SOURCE_MCU_DR7 = 10,
 
     /*End marker indicating the last #
      * in the enum. Used for looping*/
-    CNGW_SOURCE_MCU_END_MARKER
-} __attribute__((packed)) CNGW_Source_MCU;
+//    CNGW_SOURCE_MCU_END_MARKER
+//} __attribute__((packed)) CNGW_Source_MCU;
 
 /**@brief The enumeration of commands sent with each message
  * to identify the message*/

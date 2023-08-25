@@ -1,7 +1,5 @@
 
 
-
-
 typedef enum CNGW_Action_Command
 {
 	CNGW_ACTION_CMD_No_Action       = 0x00,
@@ -113,6 +111,8 @@ union CCP_TX_FRAMES
     /*Frame which are supported*/
     CNGW_Action_Frame_t                     *action;
     CNGW_Handshake_GW1_Frame_t              *gw1;
+    CNGW_Query_Message_Frame_t              *query;
+    CNGW_Control_Frame_t                    *control_commands;
 
     /*Access only pointer for ease of use and strictness*/
     const void *const                       raw_data;

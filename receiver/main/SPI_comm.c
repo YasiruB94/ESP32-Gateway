@@ -109,12 +109,11 @@ void GW_Trancieve_Data(void *pvParameters)
             if (uxQueueMessagesWaiting(GW_response_queue) > 0)
             {
                 // there are messages waiting to be sent to the CN
-                if (xQueuePeek(GW_response_queue, data_to_send, 0) == pdTRUE)
-               // if (xQueueReceive(GW_response_queue, data_to_send, 0) == pdTRUE)
+               // if (xQueuePeek(GW_response_queue, data_to_send, 0) == pdTRUE)
+                if (xQueueReceive(GW_response_queue, data_to_send, 0) == pdTRUE)
                 {
                     // got the data to the data_to_send buffer
                     trans.tx_buffer = data_to_send;
-
                         Signal_GW_Of_Sending_Data();
                     
                 }
@@ -130,16 +129,17 @@ void GW_Trancieve_Data(void *pvParameters)
             }
 
             trans.rx_buffer = recvbuf;
-            trans.length = 128 * 8;
+            trans.length = 200*8;//129*8
             // Receive data from master
 
             esp_err_t ret = spi_slave_transmit(HSPI_HOST, &trans, 1);
+            Signal_GW_Of_Receiving_Data();
             if (ret == ESP_OK)
             {
                 if (memcmp(data_to_send, recvbuf, sizeof(&data_to_send)) == 0)
                 {
                     // the data is the same as the sent data. now can remove this message from the queue
-                    xQueueReceive(GW_response_queue, data_to_send, 0);
+                   // xQueueReceive(GW_response_queue, data_to_send, 0);
                 }
                 else
                 {

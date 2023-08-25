@@ -1,4 +1,5 @@
 #include "inc/action.h"
+#include "inc/ccp_util.h"
 
 esp_err_t Send_Action_Msg_On_Off(uint16_t cabinet, uint16_t address, CNGW_Action_Command cmd, uint16_t level)
 {
@@ -14,7 +15,8 @@ esp_err_t Send_Action_Msg_On_Off(uint16_t cabinet, uint16_t address, CNGW_Action
     actionFrame.message.action_parameters.light_level = level;
     actionFrame.message.action_parameters.reserved = 0;
     actionFrame.message.scene_parameters.reserved = 64;
-    actionFrame.message.crc = 30; 
+    //actionFrame.message.crc = 30;
+    actionFrame.message.crc = CCP_UTIL_Get_Crc8(0, (uint8_t *)&(actionFrame.message), sizeof(actionFrame.message) - sizeof(actionFrame.message.crc));
     lmcontrol_res.action = &actionFrame;
     consume_GW_message((uint8_t *)&lmcontrol_res);
     return ESP_OK;
@@ -34,7 +36,8 @@ esp_err_t Send_Action_Msg_broadcast_On_Off(uint16_t cabinet, uint16_t address, C
     actionFrame.message.action_parameters.light_level = level;
     actionFrame.message.action_parameters.reserved = 0;
     actionFrame.message.scene_parameters.reserved = 64;
-    actionFrame.message.crc = 30; 
+    //actionFrame.message.crc = 50;
+    actionFrame.message.crc = CCP_UTIL_Get_Crc8(0, (uint8_t *)&(actionFrame.message), sizeof(actionFrame.message) - sizeof(actionFrame.message.crc));
     lmcontrol_res.action = &actionFrame;
     consume_GW_message((uint8_t *)&lmcontrol_res);
     return ESP_OK;

@@ -1195,6 +1195,54 @@
     {
         "children": [
             {
+                "children": [],
+                "depends_on": null,
+                "help": "GPIO number for I2C Master data line.\n",
+                "id": "ATECC508A_I2C_MASTER_SDA",
+                "name": "ATECC508A_I2C_MASTER_SDA",
+                "range": null,
+                "title": "SDA GPIO Num",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "GPIO number for I2C Master clock line.\n",
+                "id": "ATECC508A_I2C_MASTER_SCL",
+                "name": "ATECC508A_I2C_MASTER_SCL",
+                "range": null,
+                "title": "SCL GPIO Num",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Port number for I2C Master device.\n",
+                "id": "ATECC508A_I2C_MASTER_PORT_NUM",
+                "name": "ATECC508A_I2C_MASTER_PORT_NUM",
+                "range": null,
+                "title": "Port Number",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "I2C Speed of Master device.\n",
+                "id": "ATECC508A_I2C_MASTER_FREQUENCY",
+                "name": "ATECC508A_I2C_MASTER_FREQUENCY",
+                "range": null,
+                "title": "Master Frequency",
+                "type": "int"
+            }
+        ],
+        "depends_on": null,
+        "id": "atecc508a",
+        "title": "ATECC508A",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
                 "children": [
                     {
                         "children": [],

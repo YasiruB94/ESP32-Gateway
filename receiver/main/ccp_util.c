@@ -1,11 +1,4 @@
-#include <stdlib.h>
-#include <stdint.h>
-
-#define SECOND_SINCE_1970		((uint32_t)(1522340061))
-#define	MAJOR_VER				0
-#define	MINOR_VER				0
-#define CI_BLD_NUM				0
-#define GIT_BRCH_ID				4
+#include "inc/ccp_util.h"
 
 static const uint8_t CRC8TABLE[256] =
 {

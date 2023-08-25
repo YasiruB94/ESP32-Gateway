@@ -1,5 +1,8 @@
 #include "inc/handshake.h"
-#include "ccp_util.c"
+#include "inc/ccp_util.h"
+//#include "inc/temp.h"
+ #include "include/atecc508a.h"
+ #define ATMEL_HMAC_SIZE                     (32u)
 static const char *TAG = "handshake";
 bool Handshake_done = false;
 
@@ -18,14 +21,14 @@ void analyze_CNGW_Handshake_CN1_t(const uint8_t *recvbuf, int size, bool print_d
         printf("frame.message.challenge: ");
         for (int i = 0; i < CNGW_CHALLENGE_RESPONSE_LENGTH; i++)
         {
-            printf("%u ", frame.message.challenge[i]);
+            printf("0x%x ", frame.message.challenge[i]);
         }
         printf("\n");
         printf("frame.message.command: %d\n", frame.message.command);
         printf("frame.message.hmac: ");
         for (int i = 0; i < CNGW_HMAC_LENGTH; i++)
         {
-            printf("%u ", frame.message.hmac[i]);
+            printf("0x%x ", frame.message.hmac[i]);
         }
         printf("\n");
         printf("frame.message.mainboard_serial: ");
@@ -86,9 +89,19 @@ void prepare_CN_handshake_01_feedbck(CNGW_Handshake_CN1_Frame_t *cn)
     gw1.message.gateway_model = 0;
     gw1.message.firmware_version = *GWVer_Get_Firmware();
     gw1.message.bootloader_version = *GWVer_Get_Bootloader_Firmware();
-    // copy the hmac of the cn mcu to the response hmac
-    memcpy(gw1.message.hmac, &cn1->hmac, sizeof(gw1.message.hmac));
-    // sending the frame
+
+    memcpy(gw1.message.hmac, &cn1->challenge, sizeof(gw1.message.hmac));
+    //size_t msg_length;
+    //msg_length = sizeof(gw1.message) - sizeof(gw1.message.hmac);
+    //ATMEL_HMAC_1((uint8_t *)&gw1.message, msg_length, 3, gw1.message.hmac);
+/*
+    printf("####gw1.message.hmac: ");
+        for (int i = 0; i < ATMEL_HMAC_SIZE; i++)
+        {
+            printf("0x%x ", gw1.message.hmac[i]);
+        }
+        printf("\n");
+*/
     consume_GW_message((uint8_t *)&gw1);
     Handshake_done = false;
 }

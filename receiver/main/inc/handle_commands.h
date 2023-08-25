@@ -9,5 +9,6 @@
 #include "structs/cngw_update_messages.h"
 
 void Parse_1_Frame(uint8_t *packet, size_t dataSize);
+inline uint8_t Is_Header_Valid(const CNGW_Message_Header_t *const header);
 
 #endif

@@ -8,7 +8,7 @@
 #define GPIO_MISO 13
 #define GPIO_SCLK 14
 #define GPIO_CS 15
-#define BUFFER 140 //90
+#define BUFFER 200 //140
 #define QUEUE_LENGTH 10
 extern QueueHandle_t GW_response_queue; 
 extern QueueHandle_t CN_message_queue;
